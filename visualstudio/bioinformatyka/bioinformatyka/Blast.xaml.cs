@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace bioinformatyka
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Blast.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Blast : Window
     {
-        public MainWindow()
+        public Blast()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Blast b = new Blast();
-            b.Show();
         }
     }
 }
