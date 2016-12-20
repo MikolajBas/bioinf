@@ -1,0 +1,9 @@
+﻿<Window x:Class="bioinformatyka.Result"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Title="Result" Height="600" Width="800">
+    <Grid>
+        <Canvas Height="600" Width="800" />
+    </Grid>
+</Window>

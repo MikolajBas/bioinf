@@ -1,0 +1,11 @@
+﻿<Window x:Class="bioinformatyka.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="{DynamicResource WindowBackgroundBrush}"
+        Title="Help" Height="300" Width="500">
+    <Grid>
+        <ComboBox HorizontalAlignment="Center" Margin="30" VerticalAlignment="Top" Width="217"/>
+        <TextBlock HorizontalAlignment="Center" Margin="30" TextWrapping="Wrap" Text="Parameter description..." VerticalAlignment="Bottom" Height="162" Width="426"/>
+
+    </Grid>
+</Window>

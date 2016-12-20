@@ -7,7 +7,7 @@
         <Canvas Height="350" Width="525" />
         <Image HorizontalAlignment="Left" Height="376" Margin="-47,-36,-41,-21" VerticalAlignment="Bottom" Width="605" Source="images.jpg"/>
         <Button Content="BLAST" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="75"  Width="209" Click="Button_Click_1"/>
-        <Button Content="HELP" HorizontalAlignment="Center" Height="42" Margin="30" VerticalAlignment="Bottom" Width="139"/>
+        <Button Content="HELP" HorizontalAlignment="Center" Height="42" Margin="30" VerticalAlignment="Bottom" Width="139" Click="Button_Click_2"/>
 
 
     </Grid>
