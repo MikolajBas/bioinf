@@ -10,7 +10,7 @@
         <Label Content="Program" HorizontalAlignment="Left" Margin="68,336,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.726,0.44"/>
         <Label Content="Sequence Type" HorizontalAlignment="Left" Margin="68,248,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="182,34,0,0" TextWrapping="Wrap" Text="Email..." VerticalAlignment="Top" Width="240"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="555,308,0,0" VerticalAlignment="Top" Width="185" Height="50"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="555,308,0,0" VerticalAlignment="Top" Width="185" Height="50" Click="Button_Click_1"/>
         <ComboBox HorizontalAlignment="Left" Margin="182,248,0,0" VerticalAlignment="Top" Width="240"/>
         <ComboBox HorizontalAlignment="Left" Margin="182,291,0,0" VerticalAlignment="Top" Width="240"/>
         <ComboBox HorizontalAlignment="Left" Margin="182,336,0,0" VerticalAlignment="Top" Width="240"/>

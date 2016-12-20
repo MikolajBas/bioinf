@@ -4,8 +4,7 @@
         Background="{DynamicResource WindowBackgroundBrush}"
         Title="Help" Height="300" Width="500">
     <Grid>
-        <ComboBox HorizontalAlignment="Center" Margin="30" VerticalAlignment="Top" Width="217"/>
-        <TextBlock HorizontalAlignment="Center" Margin="30" TextWrapping="Wrap" Text="Parameter description..." VerticalAlignment="Bottom" Height="162" Width="426"/>
-
+        <ComboBox Name="ParametersComboBox" HorizontalAlignment="Center" Margin="30" VerticalAlignment="Top" Width="217" SelectionChanged="ComboBox_SelectionChanged_1"/>
+        <Label Name="Description" Content="Description..." HorizontalAlignment="Left" Margin="31,89,0,23" VerticalAlignment="Center" Height="157" Width="425"/>
     </Grid>
 </Window>
