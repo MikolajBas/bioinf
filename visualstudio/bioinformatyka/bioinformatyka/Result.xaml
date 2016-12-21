@@ -4,6 +4,11 @@
         Background="{DynamicResource WindowBackgroundBrush}"
         Title="Result" Height="600" Width="800">
     <Grid>
-        <Canvas Height="600" Width="800" />
+        <ComboBox Name="resulttype" HorizontalAlignment="Left" Margin="204,41,0,0" VerticalAlignment="Top" Width="179" Height="30"/>
+        <Label x:Name="label" Content="Choose result type:" HorizontalAlignment="Left" Margin="58,45,0,0" VerticalAlignment="Top" Height="26" Width="124"/>
+        <Button x:Name="button" Content="Get results&#xD;&#xA;" HorizontalAlignment="Left" Margin="496,45,0,0" VerticalAlignment="Top" Width="142" Height="26" Click="button_Click"/>
+        <ScrollViewer Name="scroller" HorizontalAlignment="Left" Height="403" Margin="57,93,0,0" VerticalAlignment="Top" Width="696" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="button1" Content="Export&#xD;&#xA;" HorizontalAlignment="Left" Margin="314,524,0,0" VerticalAlignment="Top" Width="170" Height="35" Click="button1_Click"/>
+
     </Grid>
 </Window>

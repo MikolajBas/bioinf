@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace bioinformatyka
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for BoostPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class BoostPage : Page
     {
-        public MainWindow()
+        public BoostPage()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Blast b = new Blast();
-            b.Show();
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            Help h = new Help();
-            h.Show();
         }
     }
 }
